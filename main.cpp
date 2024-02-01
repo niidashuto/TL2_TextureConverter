@@ -25,10 +25,9 @@ int main(int argc, char* argv[]) {
 	//テクスチャ変換
 	converter.ConverterTextureWICToDDS(argv[kFilePath]);
 
-	//COMライブラリの終了
+	//COMライブラリ終了
 	CoUninitialize();
 
-	system("pause");
-
+	//system("pause");
 	return 0;
 }

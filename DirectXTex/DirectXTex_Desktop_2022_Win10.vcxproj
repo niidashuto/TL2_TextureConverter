@@ -481,11 +481,6 @@
   <ItemGroup>
     <None Include="Shaders\CompileShaders.cmd" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\TextureConverter.vcxproj">
-      <Project>{f1d6539c-ba92-453d-871d-3f4ae5a500be}</Project>
-    </ProjectReference>
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets" />
   <Target Name="ATGEnsureShaders" BeforeTargets="PrepareForBuild">
